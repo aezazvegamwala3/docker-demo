@@ -1,4 +1,4 @@
-FROM public.ecr.aws/docker/library/node:20-alpine
+FROM debian:9
 WORKDIR /app
 COPY server.js .
 EXPOSE 80
